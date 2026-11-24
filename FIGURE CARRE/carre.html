@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body{
+    background-color: aquamarine;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container {
+    width: 115px;
+    height: 115px;
+    position: relative;
+}
+#left{
+    background-color: white;
+    width: 40px;
+    height: 60Px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#top{
+    background-color: white;
+    width: 60px;
+    height: 40px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    position: absolute;
+    left: 40px;
+    top: 0;
+}
+#center{
+    width: 30px;
+    height: 30px;
+    background-color: aquamarine;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+#bottom{
+    width: 60px;
+    height: 40px;
+    background-color: white;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+}
+#right{
+    width: 40px;
+    height: 60px;
+    background-color: white;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    position: absolute;
+    top: 40px;
+    right: 15px;
+}
+
+    </style>
+</head>
+<body>
+    <section class="container">
+        <div id="left"></div>
+        <div id="top"></div>
+        <div id="center"></div>
+        <div id="bottom"></div>
+        <div id="right"></div>
+    </section>
+</body>
+</html>

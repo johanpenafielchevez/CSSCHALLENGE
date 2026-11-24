@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+body{
+    background-color: violet;
+    margin: 0;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+     height: 100vh; 
+}
+#outer{
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 90px;
+}
+#circle{
+    width: 85px;
+    height: 85px;
+    background-color: violet;
+    border-radius: 50%;
+    translate: 20px 5px;
+}
+#moon{
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    border-radius: 50%;
+    translate: 20px -5px;
+    box-shadow: -14px 14px 0px -4px yellow;
+}
+
+
+</style>
+<body>
+    <div id="outer">
+        <div id="circle">
+            <div id="moon"></div>
+        </div>
+    </div>
+</body>
+</html>
